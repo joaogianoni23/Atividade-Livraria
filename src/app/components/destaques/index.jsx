@@ -33,50 +33,50 @@ const Destaques = () => {
     
         return stars;
       };
-      const featuredBooks = [
-        {
-          id: 1,
-          title: "O Algoritmo da Imaginação",
-          author: "Ana Luz Santos",
-          price: 49.9,
-          coverImage:
-            "https://via.placeholder.com/150x200/3498db/ffffff?text=Algoritmo",
-          rating: 4.5,
-          tags: ["Ficção Científica", "Tecnologia"],
-        },
-        {
-          id: 2,
-          title: "Conexões Invisíveis",
-          author: "Marcos Silva",
-          price: 39.9,
-          coverImage:
-            "https://via.placeholder.com/150x200/e74c3c/ffffff?text=Conexões",
-          rating: 4.8,
-          tags: ["Romance", "Tecnologia"],
-        },
-        {
-          id: 3,
-          title: "Além do Código",
-          author: "Julia Mendes",
-          price: 55.9,
-          coverImage:
-            "https://via.placeholder.com/150x200/2ecc71/ffffff?text=Código",
-          rating: 4.2,
-          tags: ["Biografia", "Programação"],
-        },
-        {
-          id: 4,
-          title: "Universos Paralelos",
-          author: "Lucas Costa",
-          price: 47.9,
-          coverImage:
-            "https://via.placeholder.com/150x200/f39c12/ffffff?text=Universos",
-          rating: 4.7,
-          tags: ["Ficção Científica", "Filosofia"],
-        },
-      ];
-    
-      
+        const featuredBooks = [
+    {
+      id: 1,
+      title: "O Algoritmo da Imaginação",
+      author: "Ana Luz Santos",
+      price: 49.9,
+      coverImage:
+        "https://via.placeholder.com/150x200/3498db/ffffff?text=Algoritmo",
+      rating: 4.5,
+      tags: ["Ficção Científica", "Tecnologia"],
+    },
+    {
+      id: 2,
+      title: "Conexões Invisíveis",
+      author: "Marcos Silva",
+      price: 39.9,
+      coverImage:
+        "https://via.placeholder.com/150x200/e74c3c/ffffff?text=Conexões",
+      rating: 4.8,
+      tags: ["Romance", "Tecnologia"],
+    },
+    {
+      id: 3,
+      title: "Além do Código",
+      author: "Julia Mendes",
+      price: 55.9,
+      coverImage:
+        "https://via.placeholder.com/150x200/2ecc71/ffffff?text=Código",
+      rating: 4.2,
+      tags: ["Biografia", "Programação"],
+    },
+    {
+      id: 4,
+      title: "Universos Paralelos",
+      author: "Lucas Costa",
+      price: 47.9,
+      coverImage:
+        "https://via.placeholder.com/150x200/f39c12/ffffff?text=Universos",
+      rating: 4.7,
+      tags: ["Ficção Científica", "Filosofia"],
+    },
+  ];
+
+  
     return (
 <section className={styles.bookSection}>
         <div className={styles.sectionHeader}>
